@@ -13,6 +13,6 @@ public class Cone extends Shape{
         return ((1.0 / 3) * Math.PI * Math.pow(radius, 2) * height);
     }
     public String toString() {
-        return "Surface Area: " + surface_area() + "\nVolume: " + volume();
+        return "Cone:\n\tSurface Area: " + String.format("%.4f", surface_area()) + " cm² \n\tVolume: " + String.format("%.4f", volume()) + " cm³";
     }
 }
